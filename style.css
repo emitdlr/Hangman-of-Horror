@@ -1,14 +1,36 @@
-.jumbotron, container, h1 {
-		background-color: black;
-		color: rgb(252, 6, 6);
-		font-size: 60px;
-		font-family: 'Creepster', cursive;
+body {
+	background-color: black;
+}
+
+.jumbotron {
+	background-color: black;
+	color: red;
+	font-size: 500px;
+	font-weight: 200;
+	font-family: 'Creepster', cursive;
+	}
+
+.h1 {
+	color: red;
+	font-size: 60px;
+	font-family: 'Creepster', cursive;
 	}
 		
-	p {
-		font-family: 'Creepster', cursive;
-		color: red;
-		background-color: black;
+p {
+	font-family: 'Creepster', cursive;
+	font-size: 18px;
+	color: red;
 	}
-	
+
+.keyboardRow { 
+	text-align: left;
+}
+
+.key { 
+	display:inline-block; 
+	border:1px solid red; 
+	color: red;
+	padding: 20px;
+	margin-bottom:5px; 
+}
 	
