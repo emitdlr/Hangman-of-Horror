@@ -1,13 +1,19 @@
 body {
 	background-color: black;
+	height: 50%;
 }
 
 .jumbotron {
+	position: relative;
+	min-height: 50px;
+	top: -25px;
+	margin-bottom: 0px;
 	background-color: black;
 	color: red;
-	font-size: 500px;
-	font-weight: 200;
+	font-size: 350px;
 	font-family: 'Creepster', cursive;
+	padding-bottom: 2px;
+	padding-top: 25px;
 	}
 
 .h1 {
@@ -16,21 +22,79 @@ body {
 	font-family: 'Creepster', cursive;
 	}
 		
-p {
+p, #panel-heading {
 	font-family: 'Creepster', cursive;
-	font-size: 18px;
+	font-size: 20px;
 	color: red;
+	width: 500px;
+	margin: 0 auto;
 	}
 
+
 .keyboardRow { 
-	text-align: left;
+	text-align: center;
+	width:600px;
+	height: 75px;
+	padding: 10px;
 }
 
 .key { 
 	display:inline-block; 
 	border:1px solid red; 
 	color: red;
+	padding: 15px;
+	margin-bottom:10px; 
+}
+
+#wrapper {
+	text-align: center;
+	color: red;	
+	border:1px solid red;
+	height: 20px;
+}
+
+#clue {
+	text-align: left;
+	position: relative;
+	float: left;
+}
+
+#button {
+	padding: 5px;
+	margin-right: 15px;
+	height: 10px;
+	top: 5px;
+}
+
+#hint {  
+    margin-left: 200px;
+    margin-top: 1px;
+    width: 84px;
+    height: 5px;   
+    background: transparent;
+	border: 1px solid red;
+	display:inline-block;
+	text-align: center;
 	padding: 20px;
-	margin-bottom:5px; 
+	padding-top: 5px;
+    color: red;   
+    font-size:14px;
+	font-weight:700;
+}
+
+#reset {  
+    margin-left: 30px;
+    margin-top: 1px;
+    width: 150px;
+    height: 10px;   
+    background: transparent;
+	border: 1px solid red;
+	display:inline-block;
+	text-align: center;
+	padding: 20px;
+	padding-top: 5px;
+    color: red;   
+    font-size:14px;
+	font-weight:700;
 }
 	
